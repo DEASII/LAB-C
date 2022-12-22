@@ -12,3 +12,11 @@ int main() {
   scanf("%d", &n);
     decimal_to_binary(n);
 }
+
+
+
+
+
+
+
+
