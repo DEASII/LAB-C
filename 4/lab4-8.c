@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void decimal_to_binary(int n) {
   if (n == 0) {
     return;
@@ -10,6 +11,13 @@ void decimal_to_binary(int n) {
 int main() {
   int n;
   scanf("%d", &n);
-    decimal_to_binary(n);
+  
+if (n == 0){
+    printf("%d",n);}
+else{
+  decimal_to_binary(n);
+  }
+
+  return 0;
 }
-// credit: ปัญญาประดิษฐ์
+Credit: ปัญญาประดิษฐ์
